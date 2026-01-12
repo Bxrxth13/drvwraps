@@ -1,0 +1,24 @@
+{
+  "name": "hair-restoration-server",
+  "version": "1.0.0",
+  "description": "Backend server for hair restoration consultation form",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["hair", "restoration", "consultation", "email"],
+  "author": "Dr. V Hair Restoration",
+  "license": "MIT"
+}
+
